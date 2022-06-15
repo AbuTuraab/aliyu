@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style> 
+  .required {
+color: rgb(255, 2, 2);    
+  }
+body{
+  position: "center";
+  margin: 0;
+}
+</style> 
+</head>
+<body>
+  <p> Apply for Job</p>
+  <form>
+     <label for="fname">First name:<span class="required">*</span></label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:<span class="required" >*</span></label><br>
+    <input type="text" id="lname" required name="lname"><br>
+    <label for="email">Email:<span class="required" >*</span></label><br>
+    <input type="text" id="email" required name="email"><br>
+    <label for="phone">Phone:<span class="required" >*</span></label><br>
+    <input type="text" id="phone" required name="phone"><br>
+    <label for="resumeorcv">Resume or Cv:<span class="required" >*</span></label><br>
+     <input type="file" id="myFile" name="filename"><br>
+     <label for="Coverletter">Cover Letter:</label><br>
+      <textarea rows = "5" cols = "60" name = "description">
+
+   </textarea><br>
+   <input type = "submit" value = "submit" />
+
+  </form><br>
+<div>Are you legally authorized to work in Nigeria?</div>
+</body>
+</html>
